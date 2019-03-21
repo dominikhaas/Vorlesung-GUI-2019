@@ -1,6 +1,10 @@
+#Netbeans
 **/build/**
 **/dist/**
 **/target/**
 **/nbproject/private/**
+
+#IntelliJ
 **/.idea/workspaces.xml
 **/.idea/tasks.xml
+**/out/**

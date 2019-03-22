@@ -30,6 +30,10 @@ Ziel der Übung ist es für die folgenden Übungen Arbeitsfähigkeit herzustelle
 
 <a href="docbase/U-01-Arbeitsfaehigkeit.pdf">Übungsblatt 1</a>
 
+### Übung 2 - Komponenten und Layouts
+Ziel der Übung ist es ein typisches Eingabeformular in FXML zu erstellen. Wir benutzen dazu das Werkzeug SceneBuilder.
+
+<a href="docbase/U-02-Layout.pdf">Übungsblatt 2</a>
 
 ### Literatur
 1. Johan Vos: Pro JavaFX 9

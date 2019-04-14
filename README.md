@@ -40,6 +40,11 @@ Ziel der Übung ist es die Oberfläche aus Übung 2 mit Funktionalität zu verse
 
 <a href="docbase/U-03-Events.pdf">Übungsblatt 3</a>
 
+### Übung 4 - MVx
+Ziel der Übung ist es die Oberfläche aus Übung 3 nach dem MVP Muster mit Data Binding weiterzuentwickeln.
+
+<a href="docbase/U-04-MVx.pdf">Übungsblatt 4</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

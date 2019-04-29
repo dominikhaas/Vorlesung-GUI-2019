@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v4.mvp.IntervalPresenter">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="buttonUp" alignment="CENTER_RIGHT" mnemonicParsing="false" text="&gt;" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+      <Button fx:id="buttonDown" mnemonicParsing="false" text="&lt;" GridPane.rowIndex="2" />
+      <ProgressBar fx:id="valueProgressbar" maxWidth="1.7976931348623157E308" progress="0.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+      <TextField fx:id="valueTextField" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" />
+   </children>
+</GridPane>

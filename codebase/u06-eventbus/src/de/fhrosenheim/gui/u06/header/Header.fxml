@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="rootPane" hgap="5.0" styleClass="chartHeader" stylesheets="@chartheader.css" vgap="5.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.fhrosenheim.gui.u06.header.HeaderController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" />
+      <ColumnConstraints />
+      <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" />
+      <ColumnConstraints hgrow="ALWAYS" />
+      <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" />
+      <ColumnConstraints />
+      <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" />
+      <ColumnConstraints minWidth="-Infinity" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" vgrow="NEVER" />
+   </rowConstraints>
+   <children>
+      <Label text="Series" GridPane.rowIndex="1" />
+      <ComboBox fx:id="seriesInput" editable="true" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label text="Measurement" GridPane.rowIndex="2" />
+      <ComboBox fx:id="measurementInput" editable="true" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label text="Host" GridPane.rowIndex="3" />
+      <ComboBox fx:id="hostInput" editable="true" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label text="Metric" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label text="Process" GridPane.rowIndex="4" />
+      <Label text="Type" GridPane.rowIndex="5" />
+      <ComboBox fx:id="processInput" editable="true" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <ComboBox fx:id="typeInput" editable="true" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label text="Exclude" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <ComboBox fx:id="metricInput" editable="true" layoutX="118.0" layoutY="10.0" maxWidth="1.7976931348623157E308" prefWidth="150.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <TextField fx:id="excludeInput" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <TextField maxHeight="1.7976931348623157E308" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.rowSpan="2" />
+      <CheckBox fx:id="expertModeInput" mnemonicParsing="false" text="Expert Mode (Lucene Query language)" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label minWidth="-Infinity" text="Sampling" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label minWidth="-Infinity" text="Aggregation" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      
+      <Label minWidth="-Infinity" text="Graph" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <ComboBox fx:id="samplingInput" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <ComboBox fx:id="aggregationInput" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <ComboBox fx:id="graphInput" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Label minWidth="-Infinity" text="From" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Label minWidth="-Infinity" text="Until" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <DatePicker fx:id="fromInput" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <DatePicker fx:id="untilInput" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <Button fx:id="createBookmarkButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Create Bookmark" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <SplitMenuButton fx:id="addToGraphButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Add to Graph" GridPane.columnIndex="7" GridPane.rowIndex="4">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Button fx:id="generateGraphButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onGenerateGraph" text="Generate Graph" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</GridPane>

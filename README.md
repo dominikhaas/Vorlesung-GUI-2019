@@ -55,6 +55,11 @@ Ziel der Übung ist es die Oberfläche der vergangenen Übungen um einen Even
 
 <a href="docbase/U-06-EventBus.pdf">Übungsblatt 6</a>
 
+### Übung 7 - Parallelität bei grafischen Oberflächen
+Ziel der Übung ist es, eine (simuliert) langlaufende Aktion außerhalb des UI-Threads auszuführen. Dem Benutzer soll dabei ein Fortschritt visualisiert werden.
+
+<a href="docbase/U-07-Parallelitaet.pdf">Übungsblatt 7</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

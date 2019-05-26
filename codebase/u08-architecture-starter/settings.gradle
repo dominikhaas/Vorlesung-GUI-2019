@@ -1,0 +1,3 @@
+rootProject.name = 'u08-architecture-starter'
+include 'ekg-gui'
+

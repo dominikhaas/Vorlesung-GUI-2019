@@ -60,6 +60,11 @@ Ziel der Übung ist es, eine (simuliert) langlaufende Aktion außerhalb des UI-
 
 <a href="docbase/U-07-Parallelitaet.pdf">Übungsblatt 7</a>
 
+### Übung 8 - Architektur
+Ziel der Übung ist es, die bekannte Anwendung in eine Schichtenarchitektur zu überführen. Die Schichten werden dabei als eigene Komponenten umgesetzt. Technisch erfolgt dies als Multi-Projekt-Gradle-Build.
+
+<a href="docbase/U-08-Architektur.pdf">Übungsblatt 8</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

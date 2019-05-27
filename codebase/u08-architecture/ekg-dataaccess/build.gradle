@@ -1,0 +1,17 @@
+
+dependencies {
+
+}
+
+
+ext.moduleName = 'ekg-dataaccess'
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath,
+        ]
+        classpath = files()
+    }
+}

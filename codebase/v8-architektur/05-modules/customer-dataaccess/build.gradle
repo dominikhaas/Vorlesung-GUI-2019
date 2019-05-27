@@ -1,0 +1,17 @@
+dependencies {
+
+}
+
+
+ext.moduleName = 'de.throsenheim.gui.architektur.exercise.customer.dataaccess'
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath,
+        ]
+        classpath = files()
+    }
+}
+

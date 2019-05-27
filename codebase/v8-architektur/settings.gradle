@@ -1,0 +1,11 @@
+rootProject.name = 'v8-architektur'
+
+include '01-nichts'
+include '02-schichten'
+include '03-saeulen'
+include '04-kombiniert'
+include '05-modules/customer-gui'
+include '05-modules/customer-business'
+include '05-modules/customer-dataaccess'
+
+

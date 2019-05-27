@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":05-modules/customer-business:main" external.linked.project.path="$MODULE_DIR$/../../../../05-modules/customer-business" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="de.throsenheim.gui.architektur.vorlesung" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../../.." rootProjectPath="$MODULE_DIR$/../../../.." />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../../../05-modules/customer-business/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../05-modules/customer-business/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../05-modules/customer-business/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../05-modules/customer-business/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="v8-architektur.05-modules_customer-dataaccess.main" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version "0.0.7"
+    id 'application'
+}
+
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+    version = "11.0.2"
+}
+
+dependencies {
+    compile project(':ekg-business')
+}
+
+mainClassName = "de.throsenheim.gui.u08.U08Main"

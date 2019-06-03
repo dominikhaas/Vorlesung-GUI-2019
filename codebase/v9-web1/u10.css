@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-size: 10pt
+}
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr auto auto auto auto;
+  grid-gap: 0.3em 0.3em;
+  align-items: center;
+  margin: 1em;
+}
+
+#largeTextArea {
+  grid-row: 3 / 5;
+  grid-column: 4 / 5;
+  width: auto;
+}
+
+@media (max-width: 940px) {
+  .header {
+    grid-template-columns: auto 1fr;
+  }
+
+  #largeTextArea {
+    grid-row: 10 / 11;
+    grid-column: 2 / 3;
+    width: auto;
+  }
+
+  .emptySpacer {
+    display: none;
+  }
+}
+
+/* nur Kosmetik */
+
+.topic-column-end {
+    margin-right: 0.7em;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: darkgrey;
+    justify-self: end;
+    margin-bottom: 0;
+}
+
+#expertMode * {
+    margin-right: 0.5em;
+}
+#addToGraphButton {
+    flex-grow: 1;
+}

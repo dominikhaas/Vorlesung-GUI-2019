@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo 3</title>
+    <style type="text/css">
+
+        h1 {
+            color: blue;
+        }
+
+        .primary-button {
+            background-color: aqua;
+        }
+
+        button {
+            padding: 5px;
+        }
+
+        .login-container {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: auto 1fr;
+        }
+
+
+        .button-container {
+            grid-column: 2 / 3;
+            justify-self: right;
+        }
+
+        @media (max-width: 500px ) {
+            h1 {
+                color: red;
+            }
+
+            .login-container {
+                grid-template-columns: auto;
+            }
+
+            .button-container {
+                grid-column: 1 / 2;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<h1>Login</h1>
+<div class="login-container">
+    <label for="nameInput">Login</label>
+    <input id="nameInput" type="text" class="my-class">
+
+    <label for="passwordInput">Password</label>
+    <input id="passwordInput" type="password" class="my-class">
+    <div class="button-container">
+        <button>Reset</button>
+        <button class="primary-button" onclick="login()">Log in</button>
+    </div>
+</div>
+    <script type="text/javascript">
+        function login() {
+            console.log("Log in")
+
+            var responsePromise = fetch('./login');
+
+            responsePromise.then(function(response) {
+                if(response.status == 200) {
+                    response.text().then(function(text) {
+                        alert("Success: " + text);
+                    })
+                }
+            })
+            console.log("End login")
+
+        }
+
+        console.log("End script tag")
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Übung 9 – Web GUIs Teil 1</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+  <link rel="stylesheet" href="./web1.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Übung 9 – Web GUIs Teil 1</h1>
+
+    <div class="header">
+
+      <!-- first row -->
+      <label for="series-input" class="label">Series</label> <input type="text" id="series-input" />
+
+      <label for="metric-input" class="label">Metric</label> <input id="metric-input" type="text" />
+
+      <label  class="label">Sampling</label>
+      <div class="dropdown">
+        <button class="btn btn-sm btn-secondary btn-sm dropdown-toggle input" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ...
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+
+      <label id="fromLabel" class="label">From</label> <input type="date" />
+
+      <!-- second row -->
+      <label id="meassurementLabel" class="label">Meassurement</label> <input type="text" />
+
+      <label class="label">Exclude</label> <input type="text" />
+
+      <label  class="label">Aggregation</label>
+      <div class="dropdown">
+        <button class="btn btn-sm btn-secondary btn-sm dropdown-toggle input" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ...
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+
+      <label class="label">Until</label> <input type="date"  />
+
+
+      <!-- third row -->
+      <label class="label">Host</label> <input type="text" />
+
+      <label class="label"></label> <textarea id="largeTextArea" class=" form-control"></textarea>
+
+
+      <label  class="label">Graph</label>
+      <div class="dropdown">
+        <button class="btn btn-sm btn-secondary btn-sm dropdown-toggle input" type="button" id="samplingInput" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ...
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+
+      <div class="emptySpacer">
+
+      </div>
+      <button type="button" class="btn btn-sm btn-secondary" id="create-bookmark">Create Bookmark</button>
+
+      <!-- fourth row -->
+      <label class="label">Process</label> <input type="text" />
+
+      <span></span>
+
+        <div class="emptySpacer">
+
+        </div>
+
+      <div class="emptySpacer">
+
+      </div>
+
+      <span></span>
+
+      <div class="btn-group" id="add-to-graph">
+        <button id="addToGraphButton" type="button" class="btn btn-sm btn-secondary">Add to Graph</button>
+        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+
+
+      <!-- fith row -->
+      <label class="label">Type</label> <input type="text" />
+
+      <span></span>
+      <div id="expertMode">
+        <input type="checkbox" >
+        <span class="label">Expert mode (lucene query mode)</span>
+      </div>
+
+      <span></span>
+
+      <div></div>
+      <div></div>
+
+      <button type="button" id="generate-graph" class="btn btn-sm btn-primary" onclick="sayHello();">Generate Graph</button>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      function sayHello() {
+          alert('Hello');
+      }
+    </script>
+</body>
+</html>

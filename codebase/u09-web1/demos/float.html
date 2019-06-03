@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <style type="text/css">
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #header, #footer {
+      font-size: 25pt;
+      text-align: center;
+      padding: 0.2em 0;
+      background-color: #4a4a4a;
+      color: #f9f9f9;
+    }
+
+    #nav {
+      background: orange;
+    }
+
+    #main {
+      background: white;
+    }
+
+    #side {
+      background: green;
+    }
+
+    body {
+      padding-left: 200px;
+      padding-right: 150px;
+      min-width: 240px;
+    }
+
+    #header, #footer {
+      margin-left: -200px;
+      margin-right: -150px;
+    }
+
+    #main, #nav, #side {
+      position: relative;
+      float: left;
+    }
+
+    #main {
+      padding: 0 20px;
+      width: 100%;
+    }
+
+    #nav {
+      width: 180px;
+      padding: 0 10px;
+      right: 240px;
+      margin-left: -100%;
+    }
+
+    #side {
+      width: 130px;
+      padding: 0 10px;
+      margin-right: -100%;
+    }
+
+    #footer {
+      clear: both;
+    }
+
+    * html #nav {
+      left: 150px;
+    }
+  </style>
+</head>
+<body>
+<div id="header">Header</div>
+<div id="main">
+  <h1>Headline</h1>
+  <span>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie, nulla sed fermentum dapibus, felis magna
+  commodo felis, ac bibendum dui nulla vel velit. Integer auctor metus enim, eget feugiat dolor sollicitudin eget. Cras
+  semper lectus non gravida ultrices. Proin quis diam pellentesque, commodo nisl ac, rutrum sapien. Sed interdum diam
+  vehicula vulputate efficitur. Vivamus fringilla venenatis ex, eu tempus magna pretium vitae. Aliquam euismod massa
+  vitae dictum fringilla. Aenean ipsum velit, dignissim sed augue imperdiet, egestas tristique nibh. Aenean mollis,
+  dolor sit amet sagittis tempor, lacus elit maximus velit, dignissim tristique urna elit vel lorem. Donec porta eget
+  sem vehicula pulvinar. Donec nisi leo, imperdiet quis eleifend nec, pulvinar sit amet ex. Curabitur massa orci,
+  fringilla ac turpis eget, rhoncus egestas neque.
+  </span>
+</div>
+<div id="nav">
+  <h4>Navigation</h4>
+  <div>
+    <div><span>Nav</span></div>
+    <div><span>Nav</span></div>
+    <div><span>Nav</span></div>
+    <div><span>Nav</span></div>
+    <div><span>Nav</span></div>
+  </div>
+</div>
+<div id="side">
+  <h4>Stuff</h4>
+</div>
+<div id="footer">Footer</div>
+</body>
+</html>

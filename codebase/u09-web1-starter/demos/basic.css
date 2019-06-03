@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+.link-text {
+  margin-right: 1em;
+}
+
+#google-link {
+  color: darkblue;
+  font-style: italic;
+}

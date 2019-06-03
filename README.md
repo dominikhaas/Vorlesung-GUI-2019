@@ -65,6 +65,11 @@ Ziel der Übung ist es, die bekannte Anwendung in eine Schichtenarchitektur zu �
 
 <a href="docbase/U-08-Architektur.pdf">Übungsblatt 8</a>
 
+### Übung 9 - Web GUIs Teil 1
+Wir entwickeln die Webversion unseres Headers aus den vergangenen Übungen.
+
+<a href="docbase/U-09-Web01.pdf">Übungsblatt 09</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

@@ -5,7 +5,7 @@ export class HeaderModel {
 
   public series: string;
   public metric: string;
-  public sampling: string
+  public sampling: string;
   public from: Date;
   public meassurement: string;
   public exclude: string;

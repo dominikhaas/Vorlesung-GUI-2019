@@ -70,6 +70,11 @@ Wir entwickeln die Webversion unseres Headers aus den vergangenen Übungen.
 
 <a href="docbase/U-09-Web01.pdf">Übungsblatt 09</a>
 
+### Übung 10 - Web GUIs Teil 2
+Wir verwenden das HTML der letzten Übung um eine kleine laufähige Web-Version des Headers zu erzeugen. Als Framework verwenden wir dazu Angular.
+
+<a href="docbase/U-10-Web02.pdf">Übungsblatt 10</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+}
+
+.primary-button {
+  background-color: aqua;
+}
+
+button {
+  padding: 5px;
+}
+
+.login-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto 1fr;
+}
+
+
+.button-container {
+  grid-column: 2 / 3;
+  justify-self: right;
+}
+
+.alert {
+  background-color: lightcoral;
+  border: 1px solid red;
+  color: darkred;
+  font-weight: bold;
+  grid-column: span 2;
+}
+
+@media (max-width: 500px ) {
+  h1 {
+    color: red;
+  }
+
+  .login-container {
+    grid-template-columns: auto;
+  }
+
+  .button-container {
+    grid-column: 1 / 2;
+  }
+}

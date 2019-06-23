@@ -75,6 +75,11 @@ Wir verwenden das HTML der letzten Übung um eine kleine laufähige Web-Version 
 
 <a href="docbase/U-10-Web02.pdf">Übungsblatt 10</a>
 
+### Übung 11 - Test
+Ziel der Übungen ist es, eine Angular-Anwendung um Unit- und End-To-End-Tests zu erweitern.
+
+<a href="docbase/U-11-Test.pdf">Übungsblatt 11</a>
+
 ### Literatur
 1. Johan Vos: Pro JavaFX 9
 2. Yakov Fain und Anton Moiseev: Angular Development with TypeScript

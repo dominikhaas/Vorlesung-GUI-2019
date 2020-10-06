@@ -1,5 +1,0 @@
-rootProject.name = 'u08-architecture'
-include 'ekg-gui'
-include 'ekg-business'
-include 'ekg-dataaccess'
-
